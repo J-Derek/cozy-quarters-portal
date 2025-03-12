@@ -1,18 +1,176 @@
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>cozy-quarters-portal</title>
-    <meta name="description" content="Lovable Generated Project" />
-    <meta name="author" content="Lovable" />
-    <meta property="og:image" content="/og-image.png" />
-  </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estate - Luxury Real Estate</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="/" class="logo">ESTATE<span class="logo-dot">.</span></a>
+            <div class="nav-links">
+                <a href="/" class="nav-link active">Home</a>
+                <a href="/properties" class="nav-link">Properties</a>
+                <a href="/about" class="nav-link">About</a>
+                <a href="/contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-buttons">
+                <button class="btn btn-secondary">Sign In</button>
+                <button class="btn btn-primary">Request Tour</button>
+            </div>
+            <button class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
 
-  <body>
-    <div id="root"></div>
-    <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
-    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <span class="badge">REDEFINING LUXURY LIVING</span>
+            <h1>Find Your Dream Home in Perfect Location</h1>
+            <p>Discover exceptional properties curated for the most discerning clients, combining premium locations with unmatched architectural design.</p>
+            
+            <div class="search-box">
+                <div class="search-input">
+                    <label>Location</label>
+                    <input type="text" placeholder="City, neighborhood or address">
+                </div>
+                <div class="search-input">
+                    <label>Property Type</label>
+                    <select>
+                        <option value="">Any Type</option>
+                        <option value="apartment">Apartment</option>
+                        <option value="house">House</option>
+                        <option value="villa">Villa</option>
+                        <option value="commercial">Commercial</option>
+                    </select>
+                </div>
+                <button class="btn btn-primary search-btn">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                    Search
+                </button>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Featured Properties -->
+    <section class="featured-properties">
+        <div class="container">
+            <div class="section-header">
+                <span class="badge">FEATURED PROPERTIES</span>
+                <h2>Our Handpicked Properties</h2>
+                <p>Discover exceptional properties selected for their premium locations, innovative design, and remarkable features.</p>
+            </div>
+            <div class="properties-grid" id="featured-properties"></div>
+            <button class="btn btn-primary view-all">View All Properties</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=1200&q=80" alt="Luxury Property">
+                    <div class="stats-card">
+                        <div class="stat-indicator"></div>
+                        <span>Since 2005</span>
+                        <h3>$2.5B+</h3>
+                        <p>Properties sold across California</p>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <span class="badge">ABOUT ESTATE</span>
+                    <h2>We're Setting New Standards in Luxury Real Estate</h2>
+                    <p>With over 20 years of experience in the luxury real estate market, ESTATE has established itself as the premier agency for discerning clients seeking exceptional properties.</p>
+                    <div class="stats-grid">
+                        <div class="stat">
+                            <h3>300+</h3>
+                            <p>Happy Clients</p>
+                        </div>
+                        <div class="stat">
+                            <h3>150+</h3>
+                            <p>Properties Sold</p>
+                        </div>
+                        <div class="stat">
+                            <h3>15+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3>24/7</h3>
+                            <p>Client Support</p>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary">Learn More About Us</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h2 class="footer-logo">ESTATE<span>.</span></h2>
+                    <p>Premium real estate services with a focus on luxury properties and exceptional client experience.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"></a>
+                        <a href="#" class="social-link"></a>
+                        <a href="#" class="social-link"></a>
+                        <a href="#" class="social-link"></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/properties">Properties</a></li>
+                        <li><a href="/about">About</a></li>
+                        <li><a href="/contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Explore</h3>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact</h3>
+                    <ul class="contact-info">
+                        <li>123 Luxury Lane, Beverly Hills, CA 90210</li>
+                        <li><a href="tel:+15555555555">+1 (555) 555-5555</a></li>
+                        <li><a href="mailto:info@estate.com">info@estate.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> ESTATE. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="propertyData.js"></script>
+    <script src="main.js"></script>
+</body>
 </html>
