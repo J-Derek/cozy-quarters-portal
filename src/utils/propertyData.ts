@@ -1,4 +1,3 @@
-
 export interface Property {
   id: string;
   title: string;
@@ -49,7 +48,7 @@ export const properties: Property[] = [
       'https://images.unsplash.com/photo-1616137422495-1e9e46e2aa77?auto=format&fit=crop&w=2600&q=80',
       'https://images.unsplash.com/photo-1622015663084-307d19eabca2?auto=format&fit=crop&w=2600&q=80',
     ],
-    description: 'Situated atop one of downtown's most exclusive buildings, this penthouse offers unmatched luxury and convenience. The open floor plan is perfect for entertaining, while the private rooftop terrace provides a tranquil escape with breathtaking city views.',
+    description: "Situated atop one of downtown's most exclusive buildings, this penthouse offers unmatched luxury and convenience. The open floor plan is perfect for entertaining, while the private rooftop terrace provides a tranquil escape with breathtaking city views.",
     features: ['360° City Views', 'Private Rooftop Terrace', 'Concierge Service', 'Valet Parking', 'Fitness Center', 'Wine Storage'],
     isFeatured: true,
   },
@@ -67,8 +66,8 @@ export const properties: Property[] = [
       'https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=2600&q=80',
       'https://images.unsplash.com/photo-1600607687939-ce8a6c349601?auto=format&fit=crop&w=2600&q=80',
     ],
-    description: 'Nestled in the prestigious hills of Beverly Hills, this architectural masterpiece offers privacy and luxury in equal measure. The property features walls of glass that showcase breathtaking views, an infinity pool that seems to merge with the horizon, and interiors that define contemporary elegant living.',
-    features: ['Infinity Pool', 'Home Gym', 'Chef's Kitchen', 'Guest House', 'Private Gate', 'Outdoor Kitchen'],
+    description: "Nestled in the prestigious hills of Beverly Hills, this architectural masterpiece offers privacy and luxury in equal measure. The property features walls of glass that showcase breathtaking views, an infinity pool that seems to merge with the horizon, and interiors that define contemporary elegant living.",
+    features: ['Infinity Pool', 'Home Gym', 'Chef\'s Kitchen', 'Guest House', 'Private Gate', 'Outdoor Kitchen'],
     isFeatured: true,
     isNew: true,
   },
@@ -104,7 +103,7 @@ export const properties: Property[] = [
       'https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=2600&q=80',
       'https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=2600&q=80',
     ],
-    description: 'This stunning loft in the heart of downtown LA offers soaring ceilings, original exposed brick walls, and industrial-chic design elements. Recently renovated with high-end finishes while preserving the building's historic character.',
+    description: 'This stunning loft in the heart of downtown LA offers soaring ceilings, original exposed brick walls, and industrial-chic design elements. Recently renovated with high-end finishes while preserving the building\'s historic character.',
     features: ['Exposed Brick', 'Industrial Design', '24/7 Security', 'Rooftop Pool', 'EV Charging', 'Pet Friendly'],
   },
   {
@@ -139,7 +138,7 @@ export const properties: Property[] = [
       'https://images.unsplash.com/photo-1626885930974-4b69aa21bbf9?auto=format&fit=crop&w=2600&q=80',
       'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=2600&q=80',
     ],
-    description: 'This innovative micro loft maximizes every square foot with clever storage solutions and multi-functional spaces. Located in a trendy downtown neighborhood, it's perfect for the urban professional who wants a stylish, low-maintenance living space.',
+    description: "This innovative micro loft maximizes every square foot with clever storage solutions and multi-functional spaces. Located in a trendy downtown neighborhood, it's perfect for the urban professional who wants a stylish, low-maintenance living space.",
     features: ['Smart Space Design', 'Built-in Storage', 'Smart Home Features', 'Building Amenities', 'City Views', 'Energy Efficient'],
     isNew: true,
   },
